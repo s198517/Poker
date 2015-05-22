@@ -2,20 +2,6 @@ package PJ5;
 
 import java.util.*;
 
-/*
-Name: Simen Arvnes
-
-Your contribution:
-
-Partner's Name(Please note who you worked with): Mats Jensen
-
-Partner's contribution:
-
-Date: 04.30.2015
-Homework: Poker
-*/
-
-
 class PlayingCardException extends Exception {
 
     /* Constructor to create a PlayingCardException object */
