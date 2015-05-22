@@ -1,19 +1,6 @@
 package PJ5;
 import java.util.*;
 
-/*
-Name: Simen Arvnes
-
-Your contribution:
-
-Partner's Name(Please note who you worked with): Mats Jensen
-
-Partner's contribution:
-
-Date: 04.30.2015
-Homework: Poker
-*/
-
 public class SimplePoker {
 
     // default constant values
@@ -60,10 +47,6 @@ public class SimplePoker {
     	System.out.println("\n\n");
     }
 
-    /** Check current currentHand using multipliers and goodHandTypes arrays
-     *  Must print yourHandType (default is "Sorry, you lost") at the end of function.
-     *  This can be checked by testCheckHands() and main() method.
-     */
     private void checkHands()
     {
         int combination = checkCombination();
@@ -110,12 +93,6 @@ public class SimplePoker {
         }
     }
 
-
-    /*************************************************
-     *   add new private methods here ....
-     *
-     *************************************************/
-    
     //check which combination is true
     private int checkCombination(){
         int combination = 0;
